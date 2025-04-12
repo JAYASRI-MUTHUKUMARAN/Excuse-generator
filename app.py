@@ -11,7 +11,7 @@ load_dotenv()
 app = Flask(__name__)
 
 # Securely load Hugging Face API key and model URL
-HUGGINGFACE_API_KEY = ("")
+HUGGINGFACE_API_KEY = (" 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")
 HUGGINGFACE_MODEL_URL = os.getenv("HUGGINGFACE_MODEL_URL", "https://api-inference.huggingface.co/models/tiiuae/falcon-7b-instruct")
 
 # Set up logging
